@@ -21,5 +21,5 @@ public interface DishService extends IService<Dish> {
 
     public void delete(String[] ids);
 
-    public R<List<Dish>> list(Dish dish);
+    public R<List<DishDto>> list(Dish dish);
 }

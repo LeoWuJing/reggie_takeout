@@ -53,7 +53,7 @@ public class DishController {
     }
 
     @GetMapping("/list")
-    public R<List<Dish>>list(Dish dish){
+    public R<List<DishDto>>list(Dish dish){
         return dishService.list(dish);
     }
 }
